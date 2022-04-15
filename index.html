@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission</title>
+</head>
+<body>
+    <h2>You are going to the trip</h2>
+    <p id="demo1" ></p>
+    <p id="demo2" ></p>
+    <script>
+        var visa = 'Puri';
+        switch(visa)
+        {
+            case 'New york': 
+            document.getElementById("demo1").innerHTML = "You have New york tourist Visa" ;
+            document.getElementById("demo2").innerHTML = "Enjoy Your New york Trip" ;
+            break;
+            case 'Puri' :
+            document.getElementById("demo1").innerHTML = "You have Puri tourist Visa" ;
+            document.getElementById("demo2").innerHTML = "Enjoy Your Puri Trip" ;
+            break;
+            case 'Switzerland' :
+            document.getElementById("demo1").innerHTML = "You have Switzerland tourist Visa" ;
+            document.getElementById("demo2").innerHTML = "Enjoy Your Switzerland Trip" ;
+            break;
+            default :
+            document.write("<b>You don't have Visa for your tour</b>")
+
+        }
+    </script>
+</body>
+</html>
